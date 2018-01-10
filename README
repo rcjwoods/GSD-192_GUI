@@ -1,1 +1,13 @@
 This repo holds code for the 192-strip Germanium Detector's GUI.
+
+NOTES:
+1) qtGSD_GUI.py 
+    - uses python2.7, and is run from APSshare
+    - python path can be changed in the first line.
+2) qtGSD_DESIGN.ui
+    - this file can be opened and modified with QT4_Designer on linux
+    - after modifications are made, run the convert script 
+3) convert_qtGSD_DESIGN.cmd
+    - run this script to convert the .ui file to .py which is required
+4) qtGSD_DESIGN.py 
+    - this file is imported by qtGSD_GUI.py
