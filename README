@@ -15,6 +15,7 @@ NOTES:
 
 3) convert_qtGSD_DESIGN.cmd
     - run this script to convert the .ui file to .py which is required
+    - requires APSshare
 
 4) qtGSD_DESIGN.py 
     - this file is imported by qtGSD_GUI.py
