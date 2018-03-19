@@ -24,3 +24,7 @@ NOTES:
     - this script must be compiled locally: g++ gsd_parse.cc -o gsd_parse.out
     - note that nStrips=384 because the firmware was written for the 384 detector
         - channels from missing asics are not printed to the output file (192 x 4096 table)
+
+6) gsd_bulkDataParse.py
+    - this script lets you easily create and parse a list of raw data files
+    - requires gsd_parse.out
