@@ -12,7 +12,7 @@ from subprocess import call
 # C++ binary file parser
 parserPath = '/home/beams/RWOODS/Germanium/GSD-192_GUI/gsd_parse.out'
 
-# Raw data files (*.dat)
+# Raw data files String (*.dat)
 datFiles = '/home/beams/RWOODS/Germanium/gsd_192/data/*.dat'
 
 # Generate a list containing the raw data files (*.dat)
